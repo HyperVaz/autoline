@@ -1,0 +1,65 @@
+.white{
+    color: #FFFFFF;
+}
+.gray{
+    color: #E1E1E1
+}
+.yellow{
+    color: #EDFF1E
+}
+.light-yellow{
+    color: #D9E454
+}
+.brown-yellow{
+    color: #B0BA3D
+}
+.orange{
+    color: #FFC700
+}
+.brown{
+   color: #E4B354
+}
+.light-blue{
+    color: #93D0FC
+}
+.lazure{
+    color: #29E5FF
+}
+.blue{
+    color: #2931FF
+}
+.light-puple{
+    color: #D2A6FF
+}
+.purple{
+    color: #BA29FF
+}
+.darkest-gray{
+    color: #3E3E3E
+}
+.dark-gray{
+    color: #454545
+}
+.dark{
+    color: #232323
+}
+.montserrat{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.light{
+    font-weight: 200;
+}
+.medium{
+    font-weight: 500;
+}
+.semi-bold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 800;
+}
+.mb-59{
+    margin-bottom: 59px;
+}

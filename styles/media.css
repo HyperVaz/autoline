@@ -1,0 +1,249 @@
+@media (max-width: 400px) {
+    .header__menu-title {
+        display: none;
+    }
+
+    .header__bg {
+        margin-top: 0;
+    }
+
+    .header__logo {
+        margin-top: 0;
+    }
+
+    .header__date-title {
+        font-size: 9px;
+    }
+
+    .header__date-subtitle {
+        font-size: 6px;
+    }
+
+    .header__menu {
+        position: relative;
+    }
+
+    .header__date {
+        position: absolute;
+        width: 70px;
+        height: 18px;
+        left: 80%;
+        top: 30%;
+        font-size: 6px;
+        font-weight: 300;
+        letter-spacing: 0.03em;
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__title h1 {
+        font-size: 16px;
+    }
+
+    .header__title h3 {
+        font-size: 16px;
+
+    }
+
+    .header__title h6 {
+        margin-top: 6px;
+        font-size: 12px;
+        letter-spacing: 0.03em;
+    }
+
+    .girl {
+        display: block;
+        position: static;
+        margin: 0 -10%;
+    }
+
+    .header__education {
+        margin-top: -5%;
+        margin: -5% auto 0 auto;
+    }
+
+    .under-button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .yellow__btn {
+        margin: 23px auto 0 auto;
+        justify-content: center;
+    }
+
+    .after__button {
+        display: block;
+        position: relative;
+    }
+
+    .after__button-text {
+        position: static;
+    }
+
+    .no-text {
+        position: absolute;
+        top: 30%;
+        left: 70%;
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .after__button-text {
+        margin-left: 126px;
+        margin-top: 47px;
+        margin-right: 50px;
+    }
+
+    .vector-moblie {
+        position: absolute;
+        top: 90%;
+        left: 10%;
+    }
+
+    .transition {}
+
+    .cloud {
+        /* image 9118 (1) 1 */
+        position: absolute;
+        width: 474.64px;
+        height: 168.69px;
+        left: -100px;
+        top: -50px;
+        transform: rotate(6.26deg);
+    }
+
+    .cloud-2 {
+        /* image 9118 (1) 2 */
+        position: absolute;
+        width: 401.79px;
+        height: 142.8px;
+        left: 100px;
+        top: -20px;
+        transform: rotate(0.86deg);
+        overflow: hidden;
+    }
+
+    /*==================== FRAME 2 =================== */
+
+    .tasks-title {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+    }
+
+    .tasks-subtitle {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 15px;
+        letter-spacing: 0.03em;
+    }
+
+    .tasks__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tasks__card {
+        margin-bottom: 8.5rem;
+    }
+
+    .frame-2-bg {
+        height: auto;
+    }
+
+    /*==================== FRAME 3 =================== */
+
+    .about-us__text__header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-us__video {
+        display: none;
+        margin-top: 1rem;
+    }
+
+    .about-us__video-vector {
+        margin-bottom: 16rem;
+    }
+
+    .about-us__text {
+        width: 100%;
+    }
+
+    .about-us__text__header,
+    .about-us__text__header__title {
+        text-align: center;
+    }
+
+    .about-us__video-mobile {
+        display: block;
+        position: relative;
+    }
+
+    .about-us__video-bg-mobile {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-us__video-button {
+        position: absolute;
+        top: 95%;
+        left: 280px;
+    }
+
+    .about-us__video-vector {
+        top: 50px;
+        left: 130px;
+    }
+
+
+    .about-us__video-text {
+        top: 10px;
+    }
+
+    /* ==================== FRAME 4 ======================= */
+
+    .about-us__text__article{
+        width: 75%;
+        box-sizing: border-box;
+            border: 1px solid rgb(52, 52, 52);
+            border-radius: 10px;
+            margin: 91px auto 0 auto;
+    }
+    .about-us__text__title{
+        text-align: center;
+    }
+    .frame-3-bg{
+        height: auto;
+    }
+    .about-us__text__title, .about-us__text__paragraph{
+        margin: 33px 21px 0 21px;
+        font-size: 14px;
+    }
+    .about-us__text__paragraph:last-child{
+        margin-bottom: 58px;
+    }
+    .about-us__figure{
+        top: -10px;
+        left: 0;
+        width: 277px;
+            height: 107px;
+            margin: 0 auto;
+    }
+    .about-us__figure__title, .about-us__figure__text{
+        font-size: 11px;
+    }
+    .about-us__figure::after, .about-us__figure::before{
+        width: 277px;
+            height: 107px;
+    }
+}
