@@ -120,11 +120,12 @@
     .cloud-2 {
         /* image 9118 (1) 2 */
         position: absolute;
-        width: 401.79px;
+        width: 305.79px;
         height: 142.8px;
         left: 100px;
         top: -20px;
         transform: rotate(0.86deg);
+        transform: translateX(-1,-1);
         overflow: hidden;
     }
 

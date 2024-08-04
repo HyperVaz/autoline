@@ -217,7 +217,8 @@ body {
     left: 375px;
     top: 645.5px;
 }
-.vector-mobile{
+
+.vector-moblie {
     display: none;
 }
 
@@ -288,7 +289,7 @@ body {
     height: 826px;
     background: url(../Img/bg/bg2.png) no-repeat center;
     background-size: cover;
-        background-position: center;
+    background-position: center;
 }
 
 .tasks-title {
@@ -597,8 +598,189 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 .about-us__video-mobile {
     display: none;
 }
-.about-us__video{
+
+.preferences__title {
+    padding-top: 12.9rem;
+    font-family: Montserrat;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.preferences__title-h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 44px;
+    position: relative;
+    z-index: 5;
+}
+
+.preferences__title-h2 {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+    opacity: 0.6;
+}
+
+.preferences__title-text {
+    color: rgb(255, 255, 255);
+    margin-top: 6rem;
+    font-family: Century Gothic;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.preferences__title-h1::before {
+    content: "Что ты";
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 166px;
+    font-weight: 700;
+    line-height: 202px;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5.5rem;
+    top: -5.2rem;
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.preferences__title-h1::after {
+    content: "Получишь";
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 166px;
+    font-weight: 700;
+    line-height: 202px;
+    letter-spacing: 3%;
+    text-align: justify;
+    text-transform: uppercase;
+    position: absolute;
+    left: 15.5rem;
+    top: 10rem;
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.preferences__cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preferences__card {
+    width: 460px;
+    border-radius: 11px;
+    background: rgb(225, 225, 225);
+    position: relative;
+}
+
+.preferences__card-title {
+    color: rgb(75, 75, 75);
+    font-family: Century Gothic;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 22px 0 0 0;
+}
+
+.preferences__card-list-item {
+    color: rgb(75, 75, 75);
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 22px 51px 0 51px;
+}
+
+.preferences__card-list-item:last-child {
+    margin-bottom: 32px;
+}
+
+.preferences__card-image-konus {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.preferences__card-image-shina {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pc1 {
+    margin-top: 130px;
+    height: 262px;
+}
+
+.pc2 {
+    margin-top: 206px;
+}
+
+.preferences__card {
+    width: 460px;
+    border-radius: 11px;
+    background: rgb(225, 225, 225);
+    position: relative;
+}
+
+.preferences__card-title {
+    color: rgb(75, 75, 75);
+    font-family: Century Gothic;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 22px 0 0 0;
+}
+
+.preferences__card-list-item {
+    color: rgb(75, 75, 75);
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 22px 51px 0 51px;
+}
+
+.preferences__card-list-item:last-child {
+    margin-bottom: 32px;
+}
+
+.preferences__card-image-konus {
+    position: absolute;
+    top: 14rem;
+    left: -11rem;
+}
+
+.preferences__card-image-shina {
+    position: absolute;
+    top: -9rem;
+    left: 38rem;
+}
+
+.pc1 {
+    margin-top: 130px;
+}
+
+.pc2 {
+    margin-top: 206px;
 }
