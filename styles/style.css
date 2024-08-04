@@ -593,7 +593,7 @@ body {
 /* ============================ FRAME 5(4) ==================== */
 
 .frame-5-bg {
-    height: 826px;
+    height: auto;
     background: url(../Img/bg/bg5.png) no-repeat center;
     background-size: cover;
     background-position: center;
@@ -676,6 +676,7 @@ body {
 .preferences__cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .preferences__card {
@@ -683,6 +684,9 @@ body {
     border-radius: 11px;
     background: rgb(225, 225, 225);
     position: relative;
+}
+.preferences__card:last-child{
+    margin-bottom: 155px;
 }
 
 .preferences__card-title {
@@ -759,10 +763,6 @@ body {
     letter-spacing: 0%;
     text-align: left;
     margin: 22px 51px 0 51px;
-}
-
-.preferences__card-list-item:last-child {
-    margin-bottom: 32px;
 }
 
 .preferences__card-image-konus {
