@@ -278,11 +278,86 @@
         <div class="container">
             <div class="join-us__block-header">
                 <h2 class="join-us__block-header-title">Уже решили присоединиться?</h2>
+                <p class="join-us__block-header-text">Жми кнопку и регистрируйся на марафон</p>
             </div>
+            <div class="join-us__block-timer">
+                <p class="join-us__block-timer-text">
+                    До начала марафона <span class="bold join-us__block-timer-text-date">20 декабря 2024 года</span>
+                    осталось:
+                </p>
+                <div class="countdown-days">
+                    <div id="countdown-days"></div>
+                    <div class="under-days">дней</div>
+                </div>
+                <div class="countdown-hours">
+                    <div id="countdown-hours"></div>
+                    <div class="under-hours">часов</div>
+                </div>
+                <div class="countdown-minutes">
+                    <div id="countdown-minutes"></div>
+                    <div class="under-minutes">минут</div>
+                </div>
+                <div class="countdown-seconds">
+                    <div id="countdown-seconds"></div>
+                    <div class="under-seconds">секунд</div>
+                </div>
+                <div id="countdown"></div>
+            </div>
+    
+            <div class="join-us__buttons">
+                <button class="join-us__button-instagram"></button>
+                <div class="under-button">
+                    <button class="yellow__btn">Учавствовать</button>
+    
+                    <div class="after__button">
+                        <div class="after__button-text">Участие в марафоне <br> абсолютно <span
+                                class="bold">бесплатно</span></div>
+                        <div class="no-text">
+                            <p class="no-text-text bold"> 15 000₸ </p>
+                            <div class="vector_notext"></div>
+                        </div>
+                        <img class="vector" src="Img/Vector 4.png"></img>
+                        <img class="vector-moblie" src="Img/Vector 1 mobile.png" alt="">
+                    </div>
+    
+                </div>
+            </div>
+            <footer class="footer">
+                <img class="footer-logo">
+                <div class="footer-love">Made with &#128156by AutoOnline</div>
+                <div class="copyright">
+                    <p>Все права защищены</p>
+                    <u>Политика конфиденциальности </u>
+                </div>
+            </footer>
         </div>
     </section>
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1 class="form__title">Регистрация на марафон</h1>
+            <h2 class="form__subtitle">
+                Дата начала марафона 20:00 / 20 декабря
+            </h2>
+            <p class="form__text">Укажи свои данные в полях ниже и получи доступ к <span class="bold">бесплатному 7-ми
+                    дневному</span> марафону от Autoline</p>
+            <form id="registrationForm">
+                <label class="form__label" for="name">Ваше имя</label>
+                <input name="name" type="text" placeholder="Введите Ваше имя" required>
+                <label class="form__label" for="city">Откуда вы?</label>
+                <input name="city" type="text" placeholder="Введите город" required>
+                <label class="form__label" for="phone">Ваш телефон</label>
+                <input name="phone" type="tel" placeholder="+7" required>
+                <label class="form__label" for="email">Ваш email</label>
+                <input name="email" type="email" placeholder="example@mail.com" required>
+                <button type="submit" class="">Отправить</button>
+            </form>
+        </div>
+    </div>
     <script src="scripts/jquery.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="scripts/timer.js"></script>
 </body>
 
 </html>
