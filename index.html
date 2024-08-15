@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/media.css">
     <link rel="stylesheet" href="styles/utils.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
     <title>Document</title>
 </head>
 
@@ -282,33 +283,57 @@
             </div>
             <div class="join-us__block-timer">
                 <p class="join-us__block-timer-text">
-                    До начала марафона <span class="bold join-us__block-timer-text-date">20 декабря 2024 года</span>
+                    До начала марафона <span class="bold join-us__block-timer-text-date">20 декабря 2024
+                        года/20:00</span>
                     осталось:
                 </p>
-                <div class="countdown-days">
-                    <div id="countdown-days"></div>
-                    <div class="under-days">дней</div>
+
+                <div class="timer-box">
+                    <div class="countdown-days">
+                        <div class="coundown-inner-box">
+
+                            <div class="countdown-timer" id="countdown-days"></div>
+                            <div class=" under-digital under-days">дней</div>
+
+                        </div>
+                        <div class="countdown-quote">:</div>
+                    </div>
+                    <div class="countdown-hours">
+                        <div class="coundown-inner-box">
+                            <div class="countdown-timer" id="countdown-hours"></div>
+                            <div class=" under-digital under-hours">часов</div>
+
+                        </div>
+                        <div class="countdown-quote">:</div>
+                    </div>
+                    <div class="countdown-minutes">
+                        <div class="coundown-inner-box">
+                            <div class="countdown-timer" id="countdown-minutes"></div>
+                            <div class="under-digital under-minutes">минут</div>
+
+                        </div>
+                        <div class="countdown-quote">:</div>
+                    </div>
+                    <div class="countdown-seconds">
+                        <div class="coundown-inner-box">
+                            <div class="countdown-timer" id="countdown-seconds"></div>
+                            <div class=" under-digital under-seconds">секунд</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="countdown-hours">
-                    <div id="countdown-hours"></div>
-                    <div class="under-hours">часов</div>
-                </div>
-                <div class="countdown-minutes">
-                    <div id="countdown-minutes"></div>
-                    <div class="under-minutes">минут</div>
-                </div>
-                <div class="countdown-seconds">
-                    <div id="countdown-seconds"></div>
-                    <div class="under-seconds">секунд</div>
-                </div>
-                <div id="countdown"></div>
             </div>
-    
+
             <div class="join-us__buttons">
-                <button class="join-us__button-instagram"></button>
+                <button class="join-us__button-instagram">
+                    <i class="fa fa-vk" aria-hidden="true"></i>
+
+
+
+
+                </button>
                 <div class="under-button">
-                    <button class="yellow__btn">Учавствовать</button>
-    
+                    <button class="yellow__btn btn-footer">Учавствовать</button>
+
                     <div class="after__button">
                         <div class="after__button-text">Участие в марафоне <br> абсолютно <span
                                 class="bold">бесплатно</span></div>
@@ -319,11 +344,11 @@
                         <img class="vector" src="Img/Vector 4.png"></img>
                         <img class="vector-moblie" src="Img/Vector 1 mobile.png" alt="">
                     </div>
-    
+
                 </div>
             </div>
             <footer class="footer">
-                <img class="footer-logo">
+                <img class="footer-logo" src="Img/logo_footer.png"></img>
                 <div class="footer-love">Made with &#128156by AutoOnline</div>
                 <div class="copyright">
                     <p>Все права защищены</p>
@@ -332,7 +357,7 @@
             </footer>
         </div>
     </section>
-    
+
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>

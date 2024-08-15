@@ -19,9 +19,9 @@ $(document).ready(function () {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Отображаем результат в элементе с id="countdown"
-        $("#countdown-days").html(days + ":")
-        $("#countdown-hours").html(hours + ":")
-        $("#countdown-minutes").html(minutes + ":")
+        $("#countdown-days").html(days)
+        $("#countdown-hours").html(hours)
+        $("#countdown-minutes").html(minutes)
         $("#countdown-seconds").html(seconds)
         $("#countdown").html(days + ":" + hours + ":" + minutes + ":" + seconds);
 

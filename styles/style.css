@@ -866,8 +866,8 @@ body {
     transform: rotate(90.00deg);
     border-radius: 5px;
     position: absolute;
-        top: -2px;
-            right: -7%;
+    top: -2px;
+    right: -7%;
 
 }
 
@@ -897,7 +897,8 @@ body {
     padding: 35px 0;
     margin-left: 4rem;
 }
-.question__block:last-child{
+
+.question__block:last-child {
     padding-bottom: 370px;
 }
 
@@ -925,8 +926,135 @@ body {
 }
 
 .join-us__block-header {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
     padding-top: 257px;
 }
+
+.join-us__block-header-title {
+    font-size: 36px;
+}
+
+.join-us__block-header-text {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.join-us__block-timer {}
+
+.join-us__block-timer-text {
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    font-family: Century Gothic;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.timer-box{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+.countdown-days, .countdown-hours, .countdown-minutes, .countdown-seconds{
+    display: flex;
+    flex-direction: row;
+}
+.countdown-timer{
+    color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 98px;
+        letter-spacing: 3%;
+        text-align: left;
+        text-transform: uppercase;
+}
+.under-digital{
+    color: rgb(255, 255, 255);
+        font-family: Century Gothic;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+
+}
+.coundown-inner-box{
+    display: flex;
+    flex-direction: column;
+}
+.countdown-quote{
+    color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 98px;
+        letter-spacing: 3%;
+        text-align: left;
+        text-transform: uppercase;
+        margin: 0 25px;
+}
+
+.join-us__buttons {
+    margin: 65px auto 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.join-us__button-instagram {
+    width: 66px;
+        height: 64px;
+    border-radius: 5px;
+        box-shadow: 0px 0px 11px 0px rgb(210, 166, 255);
+        background: linear-gradient(135.00deg, rgb(210, 166, 255) 0%, rgb(198, 200, 255) 31.146%, rgb(255, 132, 221) 69.781%, rgb(228, 197, 84) 100%);
+}
+.btn-footer{
+    margin-top: 0;
+}
+.fa-vk{
+    color: white;
+    font-size: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 103px;
+    padding-bottom: 43px;
+}
+
+.footer-logo {}
+
+.footer-love {/* Made with by AutoOnline */
+    color: rgb(255, 255, 255);
+        font-family: Century Gothic;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 3%;
+        text-align: right;}
+
+.copyright {color: rgb(255, 255, 255);
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 3%;
+    text-align: right;}
 
 
 /*====================== MODAL ==============*/

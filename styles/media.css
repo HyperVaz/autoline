@@ -403,22 +403,102 @@
         width: 90%;
     }
 
-    .question__block-cross{
+    .question__block-cross {
         width: 29px;
         margin-right: 0;
     }
-    .question__block-text{
+
+    .question__block-text {
         font-size: 12px;
-            font-weight: 700;
-            line-height: 15px;
-            letter-spacing: 0em;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0em;
     }
-    .question__block-answer-text{
+
+    .question__block-answer-text {
         font-size: 10px;
         padding: 19px 20px;
         margin-left: 0;
     }
-        .question__block:last-child {
-            padding-bottom: 145px;
+
+    .question__block:last-child {
+        padding-bottom: 145px;
+    }
+    .ts-2{
+        position: relative;
+        top: 40px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .cl-sec{
+                top: 79px;
+                    left: -140px;
+    }
+    .cl-2-sec{
+        top: 104px;
+            left: 111px;
+    }
+
+    /*================ FRAME 6 =================*/
+
+    .join-us__block-header-title {
+        font-size: 19px;
+    }
+
+    .join-us__block-header-text {
+        font-size: 12px;
+    }
+
+    .join-us__block-timer-text-date {
+        font-size: 11px;
+    }
+
+    .countdown-timer,
+    .countdown-quote {
+        font-size: 44.57px;
+    }
+
+    .under-digital {
+        font-size: 9px;
+    }
+
+    .countdown-quote {
+        margin: 0 15px;
+    }
+
+    .join-us__button-instagram {
+        order: 2;
+        width: 40.39px;
+        height: 40px;
+        margin-right: 54px;
+    }
+
+    .btn-footer {
+        margin: 0;
+        width: 140px;
+        height: 39.08px;
+        font-size: 8.6px;
+        margin-left: 50px;
+    }
+
+    .join-us__buttons {
+        justify-content: center;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-logo{
+        width: 120.57px;
+            height: 31.19px;
+            margin: 0 auto;
+    }
+    .footer-love, .copyright{
+        margin: 0 auto;
+        text-align: center;
+    }
+        .footer-love{
+            margin: 35px 0;
         }
 }
