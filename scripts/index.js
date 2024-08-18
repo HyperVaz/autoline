@@ -1,1 +1,35 @@
-$(document).ready(function () { var o = new Date("Dec 20, 2024 23:59:59").getTime(), n = setInterval(function () { var t = new Date().getTime(), c = o - t, e = Math.floor(c / 864e5), l = Math.floor(c % 864e5 / 36e5), u = Math.floor(c % 36e5 / 6e4), d = Math.floor(c % 6e4 / 1e3); $("#countdown-days").html(e), $("#countdown-hours").html(l), $("#countdown-minutes").html(u), $("#countdown-seconds").html(d), $("#countdown").html(e + ":" + l + ":" + u + ":" + d), c < 0 && (clearInterval(n), $("#countdown").html("Время вышло!")) }, 1e3) });
+$('.question__block-answer').hide();
+
+$('.question__block-cross').click(function () {
+    const questionBlock = $(this).closest('.question__block');
+    questionBlock.find('.question__block-answer').toggle(1000);
+    questionBlock.find('.question__block-cross').toggleClass('rotate-310');
+});
+
+$(document).ready(function () {
+    // Открытие модального окна при нажатии на кнопку
+    $(".yellow__btn").on("click", function (event) {
+        event.preventDefault(); // Предотвращаем стандартное поведение кнопки
+        $("#myModal").fadeIn(300);
+        // Показываем модальное окно с эффектом появления
+    });
+
+    // Закрытие модального окна при нажатии на "x"
+    $(".close").on("click", function () {
+        $("#myModal").fadeOut(300); // Скрываем модальное окно с эффектом затухания
+    });
+
+    // Закрытие модального окна при клике вне его
+    $(window).on("click", function (event) {
+        if ($(event.target).is("#myModal")) {
+            $("#myModal").fadeOut(300); // Скрываем модальное окно с эффектом затухания
+        }
+    });
+
+    // Обработчик события отправки формы
+    $("#registrationForm").on("submit", function (event) {
+        event.preventDefault(); // Предотвращаем стандартное поведение формы
+        alert("Спасибо за регистрацию!"); // Сообщение об успешной регистрации
+        $("#myModal").fadeOut(300); // Закрываем модальное окно с эффектом затухания
+    });
+});

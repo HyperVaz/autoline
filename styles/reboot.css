@@ -1,36 +1,36 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 *,
-::before,
-::after {
-    box-sizing: border-box
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 button {
     background: none;
     border: none;
     outline: none;
-    cursor: pointer
+    cursor: pointer;
 }
 
 a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 ul {
-    list-style-type: none
+    list-style-type: none;
 }
 
 img {
     max-width: 100%;
-    display: block
+    display: block;
 }
 
 table {
     width: 100%;
-    border-collapse: collapse
+    border-collapse: collapse;
 }
