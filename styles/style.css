@@ -946,8 +946,6 @@ body {
     line-height: 32px;
 }
 
-.join-us__block-timer {}
-
 .join-us__block-timer-text {
     margin-top: 60px;
     color: rgb(255, 255, 255);
@@ -1012,12 +1010,13 @@ body {
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .join-us__button-instagram {
     width: 66px;
         height: 64px;
+        margin-right: 25px;
     border-radius: 5px;
         box-shadow: 0px 0px 11px 0px rgb(210, 166, 255);
         background: linear-gradient(135.00deg, rgb(210, 166, 255) 0%, rgb(198, 200, 255) 31.146%, rgb(255, 132, 221) 69.781%, rgb(228, 197, 84) 100%);
@@ -1037,9 +1036,8 @@ body {
     padding-bottom: 43px;
 }
 
-.footer-logo {}
 
-.footer-love {/* Made with by AutoOnline */
+.footer-love {
     color: rgb(255, 255, 255);
         font-family: Century Gothic;
         font-size: 14px;
@@ -1055,7 +1053,42 @@ body {
     line-height: 15px;
     letter-spacing: 3%;
     text-align: right;}
+.after__button .bottom{
+    position: relative;
+}
+.after__button .bottom{
+    top: -50px;
+        left: 300px;
+}
 
+.after__button-text.botom{
+    
+}
+
+
+.no-text.bottom{
+    top: -111px;
+        left: 459px;
+}
+
+.no-text-text.bottom{}
+
+.vector_notext.bottom{
+    position: absolute;
+        top: 10px;
+            left: 3px;
+}
+.no-text-text.bold.bottom{
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+img.vector.bottom{
+    top: -60px;
+    left: 240px;
+}
+
+.vector-moblie .bottom{}
 
 /*====================== MODAL ==============*/
 
@@ -1070,6 +1103,7 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
+    margin: 0 auto;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -1082,21 +1116,49 @@ body {
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
     max-width: 400px;
     text-align: center;
+    border-radius: 15px;
 }
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.form__title{
+    color: rgb(56, 56, 56);
+        font-family: Montserrat;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50px;
 }
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+.form__subtitle{
+    color: rgb(56, 56, 56);
+        font-family: Century Gothic;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 9px;
+        margin-bottom: 30px;
+}
+.form__text{
+    color: rgb(56, 56, 56);
+        font-family: Century Gothic;
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: center;
+        margin-bottom: 43px;
+}
+.form__label{
+    color: rgb(56, 56, 56);
+        font-family: Century Gothic;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
 }

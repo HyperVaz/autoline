@@ -34,7 +34,7 @@
 }
 @font-face {
     font-family: 'Century gothic';
-    src: url(https://hypervaz.github.io/autoline/fonts/century\ gothic/CenturyGothic-Bolditalic.woff) format('woff');
+    src: url(https://github.com/HyperVaz/autoline/blob/main/fonts/century%20gothic/CenturyGothic-BoldItalic.woff) format('woff');
     font-weight: 700;
 }
 @font-face {
